@@ -30,6 +30,12 @@ public class Game
     /**
      * Create the game, create the rooms and put the items inside the rooms, create a set which contains the room, create the inventory.
      */
+    public static void main(String[] args)
+    {
+        Game game = new Game();
+        game.play();
+    }
+    
     public Game() 
     {
         roomHistory = new ArrayList<>();
