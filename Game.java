@@ -284,6 +284,7 @@ public class Game
             inventory.removeItem(item);
             currentRoom.addItem(item);
             item.changeCollectable(false);
+            currentRoom.setPumpWorking(true);
             System.out.println("Water pump has been turned on.");
             System.out.println("Now find the metal plates and the welding machine to fix the damage. Use the `repair` command once you have both of the items are in the damaged room.");
         }
