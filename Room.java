@@ -108,6 +108,11 @@ public class Room
         isAccessible = bool;
     }
 
+    public void setPumpWorking(boolean bool)
+    {
+        pumpWorking = bool;
+    }
+
     /**
      * Return a string describing the room's exits, for example
      * "Exits: north west".
