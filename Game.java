@@ -339,10 +339,10 @@ public class Game
         boolean wantToQuit;
         if (currentRoom.getRoomName() == "damaged room" && (inventory.contains("metal-plates") || currentRoom.contains("metal-plates")) && (inventory.contains("welding-machine") || currentRoom.contains("welding-machine"))) {
             System.out.println("You have partially repaired the wall.");
-            System.out.println("While you were working on fixing the room, the crew contacted authorities and you are headed toward the nearest port.");
+            System.out.println("While you were working on fixing the room, the crew contacted authorities and you are headed towards the nearest port.");
             System.out.println("The ship still takes in water but now you have enough time until you make it to the port.");
             System.out.println("It was a long night you managed to save your and others lives.");
-            System.out.println("Congragulations!!!");
+            System.out.println("Congratulations!!!");
             wantToQuit = true;
         } else if (!(currentRoom.getRoomName() == "damaged room") && inventory.contains("metal-plates") && inventory.contains("welding-machine") && currentRoom.getIsPumpWorking()) {
             System.out.println("You have to be in the damaged room to repair.");
