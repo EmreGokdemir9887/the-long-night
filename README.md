@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31645358/README.md)
 # The Long Night
 
 *A text-based survival adventure written in Java, built on the "World of Zuul" teaching framework.*
